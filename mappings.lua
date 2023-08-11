@@ -32,6 +32,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    
+    -- SWY
+    ["<leader>fv"] = { ":Navbuddy<cr>" },
+    ["<leader>fg"] = { ":lua require('telescope').extensions.live_grep_args.live_grep_args()<cr>",
+                       desc = "Grep with arguments" },
   },
   t = {
     -- setting a mapping to false will disable it
