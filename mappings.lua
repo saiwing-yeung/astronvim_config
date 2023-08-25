@@ -37,6 +37,12 @@ return {
     ["<leader>fv"] = { ":Navbuddy<cr>" },
     ["<leader>fg"] = { ":lua require('telescope').extensions.live_grep_args.live_grep_args()<cr>",
                        desc = "Grep with arguments" },
+
+    ["<C-S-Left>"] = { "<cmd>vertical resize -1<cr>" },
+    ["<C-S-Right>"] = { "<cmd>vertical resize +1<cr>" },
+    ["<C-S-Up>"] = { "<cmd>resize +1<cr>" },
+    ["<C-S-Down>"] = { "<cmd>resize -1<cr>" },
+
   },
   t = {
     -- setting a mapping to false will disable it
