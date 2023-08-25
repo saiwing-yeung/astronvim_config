@@ -51,4 +51,5 @@ return {
     end,
   },
 
+  { import = "astrocommunity.completion.copilot-lua" },
 }
