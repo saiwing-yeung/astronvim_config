@@ -8,6 +8,8 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
 
+  { import = "astrocommunity.debugging.nvim-bqf" },
+
   -- Can't get this to work - got b unch of errors
   -- { import = "astrocommunity.completion.copilot-lua" },
 }
