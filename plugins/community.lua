@@ -52,4 +52,7 @@ return {
   },
 
   { import = "astrocommunity.completion.copilot-lua" },
+
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
 }
